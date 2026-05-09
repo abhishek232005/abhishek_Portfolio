@@ -46,7 +46,7 @@ const Loading = ({ percent }: { percent: number }) => {
     <>
       <div className="loading-header">
         <a href="/#" className="loader-title" data-cursor="disable">
-          Logo
+          Abhishek.dev
         </a>
         <div className={`loaderGame ${clicked && "loader-out"}`}>
           <div className="loaderGame-container">
@@ -62,8 +62,10 @@ const Loading = ({ percent }: { percent: number }) => {
       <div className="loading-screen">
         <div className="loading-marquee">
           <Marquee>
-            <span> A Creative Developer</span> <span>A Creative Designer</span>
-            <span> A Creative Developer</span> <span>A Creative Designer</span>
+              <span>MERN Stack Developer</span>
+            <span>SEO Specialist</span>
+            <span>Frontend Developer</span>
+            <span>React.js Developer</span>
           </Marquee>
         </div>
         <div
@@ -91,6 +93,7 @@ const Loading = ({ percent }: { percent: number }) => {
 };
 
 export default Loading;
+
 
 export const setProgress = (setLoading: (value: number) => void) => {
   let percent: number = 0;
